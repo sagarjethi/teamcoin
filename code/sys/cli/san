@@ -1,0 +1,54 @@
+{
+    "graph": {
+        "id": "ASDF",
+        "type": "Contributions",
+        "label": "Usual Suspects",
+        "metadata": {"id": "ASDF"},
+        "nodes": [
+            {
+                "id": "1",
+                "label": "SAN",
+                "type": "project",
+                "metadata": {}
+            },
+            {
+                "id": "2",
+                "label": "Francis Dierick",
+                "type": "people",
+                "metadata": {}
+            },
+            {
+                "id": "3",
+                "label": "Vidar Andersen",
+                "type": "people",
+                "metadata": {}
+            },
+            {
+                "id": "4",
+                "label": "Puja Abbassi",
+                "type": "people",
+                "metadata": {}
+            }
+        ],
+        "edges": [
+            {
+                "source": "2",
+                "target": "1",
+                "relation": "role",
+                "metadata": {"weight": 0.8}
+            },
+            {
+                "source": "3",
+                "target": "1",
+                "relation": "role",
+                "metadata": {"weight": 0.2}
+            },
+            {
+                "source": "3",
+                "target": "1",
+                "relation": "role",
+                "metadata": {"weight": 0.2}
+            }
+        ]
+    }
+}

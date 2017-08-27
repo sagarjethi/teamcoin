@@ -1,0 +1,56 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "id": "M5SRIMRGU4KAN9OA9DNUONUKENPOTBUI",
+                "label": "SAN",
+                "type": "project",
+                "metadata": {"ext": "M5SRIMRGU4KAN9OA9DNUONUKENPOTBUI"}
+            },
+            {
+                "id": "02VFJXG79B6627A37DMMGLHQE09CGN3T",
+                "label": "Francis Dierick",
+                "type": "people",
+                "metadata": {"ext": "02VFJXG79B6627A37DMMGLHQE09CGN3T"}
+            },
+            {
+                "id": "8ACAYDMCKHNZE2N4X9GDZWKBCZHRZ7G0",
+                "label": "Vidar Andersen",
+                "type": "people",
+                "metadata": {"ext": "8ACAYDMCKHNZE2N4X9GDZWKBCZHRZ7G0"}
+            },
+            {
+                "id": "XSNZMXWZ4Y8WXR58CKYTRZZC2GAU57BN",
+                "label": "Puja Abbassi",
+                "type": "people",
+                "metadata": {"ext": "XSNZMXWZ4Y8WXR58CKYTRZZC2GAU57BN"}
+            }
+        ],
+        "edges": [
+            {
+                "id": "9UMLWWGSOFS831LZNT0S73LA85554IXV",
+                "source": "02VFJXG79B6627A37DMMGLHQE09CGN3T",
+                "relation": "role",
+                "target": "M5SRIMRGU4KAN9OA9DNUONUKENPOTBUI",
+                "metadata": {"weight": 0.8},
+                "directed": true
+            },
+            {
+                "id": "82KIFKBS667EV6NNHUQIBT2IQELKQ1JJ",
+                "source": "8ACAYDMCKHNZE2N4X9GDZWKBCZHRZ7G0",
+                "relation": "role",
+                "target": "M5SRIMRGU4KAN9OA9DNUONUKENPOTBUI",
+                "metadata": {"weight": 0.2},
+                "directed": true
+            },
+            {
+                "id": "VSKODANOXQ0G77J8M7J0D1TMJAH6FF8C",
+                "source": "XSNZMXWZ4Y8WXR58CKYTRZZC2GAU57BN",
+                "relation": "role",
+                "target": "M5SRIMRGU4KAN9OA9DNUONUKENPOTBUI",
+                "metadata": {"weight": 0.2},
+                "directed": true
+            }
+        ]
+    }
+}
