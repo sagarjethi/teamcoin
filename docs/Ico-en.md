@@ -5,17 +5,17 @@
 
 TeamCoin is an ECR20-compatible utility token that can be used on the TEAM platform as described in the white paper available at www.teamco.in 
 
-The Pre-Sale starts on 17/07/2017 (GMT+8). The public ICO begins on 12/08/2017 (GMT+8) & ends on 26/08/2017 (GMT+8). TeamCoin tokens will become fully ECR20-compatible and trade-able before 31/08/2017.
+The Pre-Sale starts on 17/07/2017 (GMT+8). The public ICO begins on 31/08/2017 (GMT+8) & ends on 14/09/2017 (GMT+8). TeamCoin tokens will become fully ECR20-compatible after the ICO has finished.
 
 An initial fixed supply of 2,000,000 TeamCoin will be created via Ethereum contract. A total of 800,000 tokens will be available for purchase in the Pre-Sale and ICO.
 
-All sales of TeamCoin are final and take the form of an IOU owed by Francis Dierick to the buyer. This IOU is payable in TeamCoin only  & will be fulfilled on 27/08/2017.
+All sales of TeamCoin are final and take the form of an IOU owed by Francis Dierick to the buyer. This IOU is payable in TeamCoin only  & will be fulfilled on 31/08/2017 at the start of the public ICO. Pre-sale coins will become trade-able after the ICO is finished.
 
-The base price at ICO is set at 88 CNY for 1 TeamCoin. Discounts of up to -50% are available during the Pre-Sale phase for large ticket buyers.
+The base price at ICO is set at 25 TMC for 1 ETH. Discounts of up to -50% are available during the Pre-Sale phase for large ticket buyers.
 
 A Reward of up to 1 BTC is available for buyer introductions that lead to a sale of more than 10 BTC during the Pre-Sale.
 
-All sales are final. TeamCoin is not an investment. Buying & trading TeamCoin carries risks. Inform yourself before you buy.
+All sales are final. TeamCoin is not an investment. Buying & trading TeamCoin carries risks. Inform yourself before you buy. Refer to local laws & regulations before buying TeamCoin. US Citizens: DON’T BUY TEAMCOIN.
 
 *PRE-SALE: SEND EMAIL TO FRANCIS@DIERICK.CO WITH YOUR BUDGET TO RECEIVE AN OFFER*
 
@@ -31,9 +31,10 @@ Please refer to the English version of this document. The Chinese version is mad
 ## Important Dates
 
 * Pre-Sale Begin: 17/07/2017
-* ICO Begin: 12/08/2017
-* ICO End: 26/08/2017
-* Token ECR20 Compatibility: 31/08/2017
+* ICO Begin: 31/08/2017
+* ICO End: 14/09/2017
+* Pre-Sale Token Issue: 31/08/2017
+* Token ECR20 Compatibility: 14/09/2017
 * Token Utility: Q4 2017
 
 ## Token Supply
@@ -49,8 +50,8 @@ Please refer to the English version of this document. The Chinese version is mad
 
 ## Pricing, Discounts & Rewards
 
-* ICO Base Price: 1 TeamCoin = 88 CNY
-* Discounts of up to 50% (44 CNY) will be available during Pre-Sale.
+* ICO Base Price: 1 ETH = 25 TeamCoin (TMC)
+* Discounts of up to 50% will be available during Pre-Sale.
 * A Reward of up to 1 BTC is available for buyer introductions that lead to a sale of more than 10 BTC during the Pre-Sale.
 
 ## Accepted Currencies
