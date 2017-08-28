@@ -1,9 +1,9 @@
-pragma solidity ^0.4.4;
-import 'zeppelin-solidity/contracts/token/MintableToken.sol';
-import 'zeppelin-solidity/contracts/ownership/Ownable.sol';
-import 'zeppelin-solidity/contracts/ownership/Contactable.sol';
-import 'zeppelin-solidity/contracts/lifecycle/Destructible.sol';
-import 'zeppelin-solidity/contracts/lifecycle/Pausable.sol';
+pragma solidity ^0.4.16;
+import 'github.com/OpenZeppelin/zeppelin-solidity/contracts/token/MintableToken.sol';
+import 'github.com/OpenZeppelin/zeppelin-solidity/contracts/ownership/Ownable.sol';
+import 'github.com/OpenZeppelin/zeppelin-solidity/contracts/ownership/Contactable.sol';
+import 'github.com/OpenZeppelin/zeppelin-solidity/contracts/lifecycle/Destructible.sol';
+import 'github.com/OpenZeppelin/zeppelin-solidity/contracts/lifecycle/Pausable.sol';
 
 
 
