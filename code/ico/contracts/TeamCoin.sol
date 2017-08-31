@@ -1,17 +1,15 @@
 pragma solidity ^0.4.16;
 import 'github.com/OpenZeppelin/zeppelin-solidity/contracts/token/MintableToken.sol';
 import 'github.com/OpenZeppelin/zeppelin-solidity/contracts/ownership/Ownable.sol';
-import 'github.com/OpenZeppelin/zeppelin-solidity/contracts/ownership/Contactable.sol';
 import 'github.com/OpenZeppelin/zeppelin-solidity/contracts/lifecycle/Destructible.sol';
 import 'github.com/OpenZeppelin/zeppelin-solidity/contracts/lifecycle/Pausable.sol';
 
 
 
-contract TeamCoin is Ownable, Destructible, Contactable, MintableToken {
+contract TeamCoin is Ownable, Destructible, MintableToken {
 
 	string public name = 'TeamCoin';
 	string public symbol = 'TMC';
-	string public info = 'ipfs:QmPtyYSXbPedgnijREBgHnDs6Jt1ssQk8NMgHuTchoeKZM';
 	uint public decimals = 18;
 	uint public INITIAL_SUPPLY = 1201000000000000000000000;
 	address public owner;
@@ -30,7 +28,6 @@ contract TeamCoin is Ownable, Destructible, Contactable, MintableToken {
   		owner = 0xDFDaCCAE897B008F814225dc67AaCa3aB41250A7;
   		totalSupply = INITIAL_SUPPLY;
   		balances[owner] = INITIAL_SUPPLY;
-  		contactInformation = "http://www.teamco.in";
 	}
 
 	function unlock() onlyOwner {

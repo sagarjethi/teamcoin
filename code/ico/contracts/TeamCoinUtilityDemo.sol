@@ -23,14 +23,23 @@ contract TeamCoinUtilityDemo {
 
     }
 
-    function usernameAvailable(string username) {
+    function usernameAvailable(string username) returns (bool valid) {
 
-    	// No payment needed
-    	// check register & return true / false
+        if ("" == register[username]) {
+            return true;
+        } else {
+            return false;
+        }
 
     }
 
    	function claimUsername(string username) {
+
+        if ("" == register[username]) {
+            return true;
+        } else {
+            return false;
+        }
 
    		// Payment of 1 TMC needed (through allowance)
    		// check if registered
@@ -56,10 +65,29 @@ contract TeamCoinUtilityDemo {
 
     function transferUsername(string username, address beneficiary) {
 
+        if ("" == register[username]) {
+            return true;
+        } else {
+            return false;
+        }
+
     	// Payment needed
     	// check if registered
     	// set new beneficiary in register for given username
 
     }
+
+    function isAlphaNum(byte char) internal returns (bool valid) {
+
+        if(char >= 65 && char <= 90) {
+            return true;
+        }
+        if(char >= 48 && char <= 57) {
+            return true;
+        }
+
+        return false;
+
+  }
 
 }

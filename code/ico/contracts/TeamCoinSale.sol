@@ -49,17 +49,11 @@ contract TeamCoinSale {
         require(_endBlock >= _startBlock);
         require(_rate > 0);
 
-        token = createTokenContract();
+        token = TeamCoin(0x9eDfa0Ed1A6a14360F28A7faE149816a8617E596);
         startBlock = _startBlock;
         endBlock = _endBlock;
         rate = _rate;
         wallet = msg.sender;
-    }
-
-    // creates the token to be sold.
-    // override this method to have crowdsale of a specific mintable token.
-    function createTokenContract() internal returns (MintableToken) {
-        return new TeamCoin();
     }
 
 
