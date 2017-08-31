@@ -293,8 +293,8 @@ contract TeamCoin is Ownable, Destructible, Contactable, MintableToken {
     }
 
   function TeamCoin() {
-        startBlock = block.number;
-        endBlock = startBlock + 86400;
+        startBlock = block.number + 500;
+        endBlock = startBlock + 100000;
         
         require(endBlock >= startBlock);
         

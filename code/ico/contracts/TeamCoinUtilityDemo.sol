@@ -35,6 +35,8 @@ contract TeamCoinUtilityDemo {
 
    	function claimUsername(string username) {
 
+    
+
         if ("" == register[username]) {
             return true;
         } else {
@@ -48,8 +50,7 @@ contract TeamCoinUtilityDemo {
     }
 
     function whois(string username) {
-    	// No payment needed
-    	// Takes a username string & returns the address that owns it
+
     	return register[username]
 
     }
